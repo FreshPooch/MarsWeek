@@ -25,11 +25,11 @@ public class FindingLists {
         System.out.println("Which fossils would you like to learn more about? (Spelling and Spacing is important)");
         Scanner input = new Scanner(System.in);
         String fossilChoice = input.nextLine();
-        if(fossilChoice.equalsIgnoreCase("Bird Fossil")){
+        if(fossilChoice.equalsIgnoreCase("Bird")){
             System.out.println("Fossil: " + fossilChoice + "\n Description: " + fossilDirectory.get(fossilChoice));
-        } else if (fossilChoice.equalsIgnoreCase("Fish Fossil")) {
+        } else if (fossilChoice.equalsIgnoreCase("Fish")) {
             System.out.println("Fossil: " + fossilChoice + "\n Description: " + fossilDirectory.get(fossilChoice));
-        } else if (fossilChoice.equalsIgnoreCase("Tooth Fossil")) {
+        } else if (fossilChoice.equalsIgnoreCase("Tooth")) {
             System.out.println("Fossil: " + fossilChoice + "\n Description: " + fossilDirectory.get(fossilChoice));
         }
         Thread.sleep(500);
